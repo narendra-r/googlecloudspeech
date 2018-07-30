@@ -4,8 +4,7 @@ Pod::Spec.new do |s|
   s.license  = 'Apache 2.0'
   s.authors  = { 'Google Inc.' => 'timburks@google.com'}
   s.homepage = 'http://github.com/GoogleCloudPlatform/ios-docs-samples'
-  s.source   = { :git => 'https://github.com/GoogleCloudPlatform/ios-docs-samples.git',
-                 :tag => '0.0.1' }
+  s.source   = { :tag => '0.0.1' }
   s.summary  = 'Service definitions for Google Cloud Platform APIs'	  
 
   s.ios.deployment_target = '7.1'
